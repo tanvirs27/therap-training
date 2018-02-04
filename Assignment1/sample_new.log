@@ -1,11 +1,11 @@
-2013-08-07 11:24:06,784 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/entry], G, time=9ms
+2013-08-07 12:24:06,784 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/entry], G, time=9ms
 2013-08-07 11:24:06,902 [[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/admin2/renewPassword], G, time=3ms
 2013-08-07 11:24:30,914 [[ACTIVE] ExecuteThread: '58' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.common.dao.LoginDaoImpl:772] INFO  - Updating/Saving Login, id=228373
 2013-08-07 11:24:30,926 [[ACTIVE] ExecuteThread: '58' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/admin2/renewPassword], P, time=13ms
 2013-08-07 11:24:31,038 [[ACTIVE] ExecuteThread: '44' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/entry], G, time=0ms
 2013-08-07 11:24:31,161 [[ACTIVE] ExecuteThread: '58' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/splash/view], G, time=10ms
 2013-08-07 11:24:31,498 [[ACTIVE] ExecuteThread: '44' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/splash/messageView], G, time=2ms
-2013-08-07 11:24:31,624 [[ACTIVE] ExecuteThread: '20' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.common.dao.ImageDaoImpl:101] INFO  - MET:IMAGE:display id=343169, size=8184, time=3
+2013-08-07 00:24:31,624 [[ACTIVE] ExecuteThread: '20' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.common.dao.ImageDaoImpl:101] INFO  - MET:IMAGE:display id=343169, size=8184, time=3
 2013-08-07 11:24:31,627 [[ACTIVE] ExecuteThread: '20' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/common/image/imageContent], G, time=7ms
 2013-08-07 11:24:34,592 [[ACTIVE] ExecuteThread: '56' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/splash/view], P, time=0ms
 2013-08-07 11:24:34,704 [[ACTIVE] ExecuteThread: '21' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.common.web.EntryController:48] INFO  - MET:LOGIN:Forwarding to first page
@@ -15,14 +15,14 @@
 2013-08-07 11:24:35,138 [[ACTIVE] ExecuteThread: '55' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/newfpage/admin], G, time=80ms
 2013-08-07 11:24:48,406 [[ACTIVE] ExecuteThread: '56' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/unifiedClient/waitingList], G, time=19ms
 2013-08-07 11:24:52,333 [[ACTIVE] ExecuteThread: '56' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/newfpage/admin], G, time=38ms
-2013-08-07 11:24:55,122 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/unifiedClient/entryForm], G, time=44ms
-2013-08-07 11:25:01,374 [[ACTIVE] ExecuteThread: '40' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/unifiedClient/entryForm], P, time=14ms
+2013-08-07 00:24:55,122 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/unifiedClient/entryForm], G, time=44ms
+2013-08-07 00:25:01,374 [[ACTIVE] ExecuteThread: '40' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/unifiedClient/entryForm], P, time=14ms
 2013-08-07 11:25:01,519 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/fpage/dashboard], G, time=0ms
 2013-08-07 11:25:01,659 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/newfpage/admin], G, time=28ms
 2013-08-07 11:25:25,298 [[ACTIVE] ExecuteThread: '48' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/client/clientList.do], G, time=24ms
 2013-08-07 11:25:31,280 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.admin.common.ProgramListBean:42] DEBUG - Initialize Program list, provId=337554
 2013-08-07 11:25:31,287 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.admin.privilege.ClientEnrollmentBean:42] DEBUG - initializeBean:-e clientId=7481091
-2013-08-07 11:25:31,295 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.core.service.ClientUpdateManagerBean:61] DEBUG - Loaded client, formId: IDF-OSLNM-BA94PW2J855W4
+2013-08-07 00:25:31,295 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.core.service.ClientUpdateManagerBean:61] DEBUG - Loaded client, formId: IDF-OSLNM-BA94PW2J855W4
 2013-08-07 11:25:31,401 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/admin/privilege/clientEnrollment.xhtml], G, time=137ms
 2013-08-07 11:25:44,366 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.admin.privilege.ClientEnrollmentBean:42] DEBUG - User pressed 'cancel', discarding changes
 2013-08-07 11:25:44,370 [[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.core.service.ClientUpdateManagerBean:442] DEBUG - Destroying bean

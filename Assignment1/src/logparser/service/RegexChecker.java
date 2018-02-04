@@ -1,4 +1,4 @@
-package logparser;
+package logparser.service;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -66,7 +66,7 @@ public class RegexChecker {
 
     }
 
-    public static String findTime(String input){
+    public static int findTime(String input){
         String regex= "[0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3}";
 
         Pattern pattern= Pattern.compile(regex);
@@ -75,9 +75,9 @@ public class RegexChecker {
 
         if (matcher.find()) {     // find the next match
 
-            return input.substring(matcher.start(),matcher.start()+2);
+            return Integer.parseInt(input.substring(matcher.start(),matcher.start()+2));
         }else{
-            return null;
+            return -999;
         }
 
     }

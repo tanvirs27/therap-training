@@ -1,4 +1,4 @@
-package logparser;
+package logparser.model;
 
 /**
  * Created by shahriar on 2/1/18.
@@ -6,13 +6,13 @@ package logparser;
 public class Log {
 
     private String content;
-    private String time;
+    private int time;
     private Boolean isGET;
     private Boolean isPOST;
     private long responseTime; //TODO: should be changed to long
     private String URI;
 
-    public void setTime(String time) {
+    public void setTime(int time) {
         this.time = time;
     }
 
@@ -36,8 +36,28 @@ public class Log {
 
     }
 
-    public Log(String content){
-        this.content= content;
+    public int getTime() {
+        return time;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public Boolean getIsGET() {
+        return isGET;
+    }
+
+    public Boolean getIsPOST() {
+        return isPOST;
+    }
+
+    public long getResponseTime() {
+        return responseTime;
+    }
+
+    public String getURI() {
+        return URI;
     }
 
     public String toString(){

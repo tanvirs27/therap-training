@@ -1,4 +1,7 @@
-package logparser;
+package logparser.view;
+
+import logparser.model.Log;
+import logparser.model.SummaryLog;
 
 import java.util.ArrayList;
 
@@ -16,6 +19,12 @@ public class LogView {
 
         for (Log log: allLogs){
             System.out.println(log);
+        }
+    }
+
+    public void printSummary(ArrayList<SummaryLog> summary){
+        for (SummaryLog summaryLog: summary){
+            System.out.println(summaryLog);
         }
     }
 }

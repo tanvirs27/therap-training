@@ -1,7 +1,7 @@
-package logparser;
+package logparser.service;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
+import logparser.model.Log;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;

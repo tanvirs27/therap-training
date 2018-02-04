@@ -1,4 +1,6 @@
-package logparser;
+package logparser.model;
+
+import logparser.service.Reader;
 
 import java.util.ArrayList;
 
@@ -28,4 +30,6 @@ public class LogModel {
     public ArrayList<Log> getLogData(){
         return allLogs;
     }
+
+
 }

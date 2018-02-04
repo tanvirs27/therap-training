@@ -1,4 +1,4 @@
-2013-08-07 12:24:06,784 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/entry], G, time=9ms
+2013-08-07 11:24:06,784 [[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/entry], G, time=9ms
 2013-08-07 11:24:06,902 [[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/admin2/renewPassword], G, time=3ms
 2013-08-07 11:24:30,914 [[ACTIVE] ExecuteThread: '58' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [net.therap.common.dao.LoginDaoImpl:772] INFO  - Updating/Saving Login, id=228373
 2013-08-07 11:24:30,926 [[ACTIVE] ExecuteThread: '58' for queue: 'weblogic.kernel.Default (self-tuning)'] U:osl@OSL-NM A:fbd0e570 [PROFILER:132] DEBUG - URI=[/ma/admin2/renewPassword], P, time=13ms

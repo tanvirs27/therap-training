@@ -1,4 +1,6 @@
-package logparser;
+package logparser.service;
+
+import logparser.model.Log;
 
 /**
  * Created by shahriar on 2/1/18.

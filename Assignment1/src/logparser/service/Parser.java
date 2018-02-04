@@ -7,6 +7,9 @@ import logparser.model.Log;
  */
 public class Parser {
 
+    /**
+     * this class parse logs by using RegexChecker class
+     */
     private String content;
     private Log log;
 

@@ -5,11 +5,14 @@ package logparser.model;
  */
 public class Log {
 
-    private String content;
+    /**
+     * Model class for Log data
+     */
+
     private int time;
     private Boolean isGET;
     private Boolean isPOST;
-    private long responseTime; //TODO: should be changed to long
+    private long responseTime;
     private String URI;
 
     public void setTime(int time) {
@@ -32,16 +35,8 @@ public class Log {
         this.URI = URI;
     }
 
-    public Log(){
-
-    }
-
     public int getTime() {
         return time;
-    }
-
-    public String getContent() {
-        return content;
     }
 
     public Boolean getIsGET() {

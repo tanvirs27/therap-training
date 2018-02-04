@@ -11,9 +11,10 @@ import java.util.ArrayList;
 public class LogView {
 
 
-    public LogView(){
-
-    }
+    /**
+     * This is the view class of the project
+     * all kind of display is kept here
+     */
 
     public void printModel(ArrayList<Log> allLogs){
 
@@ -23,6 +24,8 @@ public class LogView {
     }
 
     public void printSummary(ArrayList<SummaryLog> summary){
+
+        System.out.println("Time  | GET/POST Count  | Total Unique URI Count  | Total Response Time");
         for (SummaryLog summaryLog: summary){
             System.out.println(summaryLog);
         }

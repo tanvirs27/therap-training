@@ -12,6 +12,9 @@ import java.util.Scanner;
  */
 public class Reader {
 
+    /**
+     * This class reads data from the input file
+     */
     private Scanner scanner;
     private RegexChecker checker;
     private ArrayList <Log> allLogs;

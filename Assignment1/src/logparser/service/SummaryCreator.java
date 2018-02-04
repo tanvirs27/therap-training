@@ -11,11 +11,13 @@ import java.util.Comparator;
  */
 public class SummaryCreator {
 
+    /**
+     * This class creates the summary of the logs
+     */
     private ArrayList<SummaryLog> summary;
 
     public SummaryCreator(){
         summary= new ArrayList<SummaryLog>();
-
     }
 
     public void generate(ArrayList<Log> allLogs){

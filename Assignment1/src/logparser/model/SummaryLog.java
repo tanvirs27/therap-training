@@ -7,6 +7,10 @@ import java.util.Set;
  * Created by shahriar on 2/4/18.
  */
 public class SummaryLog {
+
+    /**
+     * this is the model class for summary
+     */
     private int time;
     private int GETCount;
     private int POSTCount;
@@ -100,6 +104,7 @@ public class SummaryLog {
     }
 
     public String toString(){
-        return "time: "+getTimeString()+" GET/POST count: "+ GETCount+"/"+POSTCount+" Unique Uri Count: "+uriSet.size()+" Total Response Time: "+totalResponseTime;
+      //  return "time: "+getTimeString()+" GET/POST count: "+ GETCount+"/"+POSTCount+" Unique Uri Count: "+uriSet.size()+" Total Response Time: "+totalResponseTime;
+        return getTimeString()+"  |  "+ GETCount+"/"+POSTCount+"  |  "+uriSet.size()+"  |  "+totalResponseTime;
     }
 }

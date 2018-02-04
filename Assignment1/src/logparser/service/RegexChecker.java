@@ -8,22 +8,9 @@ import java.util.regex.Pattern;
  */
 public class RegexChecker {
 
-  //  private String input;
-
-    public RegexChecker(){
-
-       // this.input=input;
-        // Use method find()
-    /*    while (matcher.find()) {     // find the next match
-            System.out.println("find() found the pattern \"" + matcher.group()
-                    + "\" starting at index " + matcher.start()
-                    + " and ending at index " + matcher.end());
-        }
-*/
-
-     //   new Parser(input).parse();
-    }
-
+    /**
+     * This class helps parsing by using regular expressions
+     */
     public static boolean isNotable(String input){
 
         String regex= "URI";
